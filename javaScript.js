@@ -1,3 +1,7 @@
+window.onload = function() {
+    drawRhomb(21);
+  };
+
 function drawRhomb(rhombSize)
 {
     let firstPartSize = Math.ceil(rhombSize / 2) + 1;
